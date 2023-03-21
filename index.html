@@ -12,9 +12,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul class="nav nav-pills">
+                    <li><a class="nav-link" href="">Produtos</a></li>
+                    <li><a class="nav-link" href="">Sobre Nós</a></li>
+                    <li><a class="nav-link" href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="logo" class="d-flex justify-content-center mt-7">
+            <img src="/images/qg-logo.png" alt="Logo da QG Garage Records">
+        </div>
+    </header>
+
+    <section id="section1">
+        <div data-bs-spy="scroll" data-bs-target="header">
+            <div id="carousel-exemplo" class="d-flex justify-content-center carousel slide m" data-bs-ride="carousel"> 
+                <div class="carousel-inner bg-dark ">
+                    <div class="carousel-item active">
+                        <img  class="d-block w-100 img-fluid " src="./images/Carrosel/1.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid"  src="./images/Carrosel/2.jpeg">
+                    </div> 
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid"  src="./images/Carrosel/3.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid"  src="./images/Carrosel/4.jpeg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid"  src="./images/Carrosel/5.jpeg">
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
 
 
-    
+
     
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
